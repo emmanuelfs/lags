@@ -1,0 +1,129 @@
+.navegate {
+	padding-top: 10px;
+	border-radius: 15px;
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45),
+                rgba(0,0,0,0.45));
+}
+
+.navegate img {
+	display:none;
+}
+
+.affix {
+	top: 0;
+	z-index: 999 !important; 
+	position:fixed;
+	width: 100%;
+}
+
+.affix img {
+	display: inline;
+}
+
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 1),
+                rgba(0,0,0,0.95));
+}
+
+.navbar-bottom {
+	background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 1),
+                rgba(0,0,0,0.95)) !important;
+	border: none !important;
+	margin-bottom: 0px !important;
+}
+
+.heightOfPic {
+	height: 100px;
+}
+
+.navbar-bottom img{
+	margin-left: 2rem;
+}
+
+.widithy {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+.contenedor {
+	min-height: 500px !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left:10rem !important;
+	padding-right:10rem !important;
+	color: #ffffe9;
+	text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+	box-shadow: 0 0 15px 8px #000;
+}
+
+.contenedor p {
+	padding-left: 2rem;
+	font-weight: 300;
+	font-family: "OpenSans",Helvetica,Arial,sans-serif;
+	font-size: 2rem;
+	line-height: 26px;
+	letter-spacing: 0em;
+}
+
+.contenedor h1 {
+	font-size: 250%;
+	
+	font-weight: bold;
+}
+
+
+
+.samurai {
+	backgroun-color: black;
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url(../img/samurai.jpg) no-repeat;
+	background-size: cover;
+	border-top: 5px solid rgba(0 , 0, 0, .05);
+}
+
+.knights{
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55) url(../img/knight.jpg) no-repeat;
+	background-size: cover;
+	border-top: 5px solid rgba(0 , 0, 0, .05);
+}
+
+.viking {
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+                rgba(0,0,0,0.85)  url(../img/viking.jpg) no-repeat;
+	background-size: cover;
+	border-top: 5px solid rgba(0 , 0, 0, .05);
+}
+
+.videoLoco {
+	box-shadow: 0 0 15px 8px #000;
+}
+
+.videoFondo {
+	background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.55)),
+                rgba(0,0,0,0.55)  url(../img/video-fondo.jpg) no-repeat;
+	background-size: cover;
+	border-top: 5px solid rgba(0 , 0, 0, .05);
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo a {
+	text-align: center;
+	margin-right: 5rem;
+	margin-bottom: 1rem;
+	font-family: Raleway;
+	text-decoration: none !important;
+	font-size: 2rem;
+	font-weight: 800;
+	color: #ffffe9 !important;
+}
+
+.logo a:hover {
+	text-shadow: -1px 1px 3px #fff;
+}
